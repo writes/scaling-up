@@ -1,0 +1,23 @@
+{
+  "name": "scaling-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^0.97.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writes/scaling-up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/writes/scaling-up/issues"
+  },
+  "homepage": "https://github.com/writes/scaling-up#readme"
+}
