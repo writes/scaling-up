@@ -43,12 +43,15 @@ p {
 
 /*
 -----
-Modifiers
+Global/Modifiers
 -----
 */
 
 .block { display: block; }
 
+.lead { text-align: center; }
+.lead h1 { font-family: ; font-size: 36px; font-weight: 700; text-transform: uppercase; }
+.lead p { color: gray; font-size: 14px; }
 /*
 -----
 Navigation
@@ -59,10 +62,15 @@ Navigation
   background-color: red;
 }
 
-
 /*
 -----
 Home
+-----
+*/
+
+/*
+-----
+Beliefs
 -----
 */
 
