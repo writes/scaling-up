@@ -3,6 +3,7 @@
 Base
 -----
 */
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -39,6 +40,14 @@ h6 {
 p {
 
 }
+
+/*
+-----
+Modifiers
+-----
+*/
+
+.block { display: block; }
 
 /*
 -----
