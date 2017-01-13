@@ -10,16 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
-  <body>
+  <body class="home">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/scaleworks.js"></script>
 
-
     <nav>
      <div class="nav-wrapper">
        <div class="container">
-       <a href="#!" class="brand-logo">scaleworks</a>
+       <a href="/" class="brand-logo">scaleworks</a>
        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
        <ul class="right hide-on-med-and-down">
          <li><a href="./beliefs.html">Beliefs</a></li>
@@ -39,30 +38,48 @@
      </div>
     </nav>
 
-    <div class="container">
-      <div class="section">
-        <div class="row">
+    <main>
+      <div class="page-content">
+        <div class="container">
+          <div class="section">
+            <div class="row">
+              <div class="col s12 m6">
+                <div class="home-banner">
+                  <h1>Scaleworks helps grow companies</h1>
+                  <p>Scaleworks is a Venture Equity provider that <b>acquires, invests in, advises and operates B2B SaaS companies.</p>
+                </div>
+              </div>
+              <div class="col s12 m6 offset-m6">
+                <div class="right icon-block home-logoWrapper">
+                  <img class="home-logo" src="https://placehold.it/100x50" alt="Filestack">
+                  <img class="home-logo" src="https://placehold.it/100x50" alt="Assembla">
+                  <img class="home-logo" src="https://placehold.it/100x50" alt="Chargify">
+                  <img class="home-logo" src="https://placehold.it/100x50" alt="Twist">
+                </div>
+                <a class="right block" href="javascript:void(0)">Learn More</a>
+              </div>
+            </div> <!-- END row -->
+          </div> <!-- END section -->
+        </div> <!-- END container -->
+      </div> <!-- END page-content -->
+    </main>
 
-          <div class="col s12 m6">
-            <div class="home-banner">
-              <h1>Scaleworks helps grow companies</h1>
-              <p>Scaleworks is a Venture Equity provider that <b>acquires, invests in, advises and operates B2B SaaS companies.</p>
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col m3">
+              <span class="left block">Follow Us:</span>
+              <a href="/" class="social twitter"><img src="https://placehold.it/20x20"></a>
+              <a href="/" class="social linkedin"><img src="https://placehold.it/20x20"></a>
+              <a href="/" class="social other"><img src="https://placehold.it/20x20"></a>
+            </div>
+            <div class="col m3 offset-m6">
+              <span class="right block">&copy; Scaleworks 2017</span>
             </div>
           </div>
-
-          <div class="col s12 m6 offset-m6">
-            <div class="right icon-block home-logoWrapper">
-              <img class="home-logo" src="https://placehold.it/100x50" alt="Filestack">
-              <img class="home-logo" src="https://placehold.it/100x50" alt="Assembla">
-              <img class="home-logo" src="https://placehold.it/100x50" alt="Chargify">
-              <img class="home-logo" src="https://placehold.it/100x50" alt="Twist">
-            </div>
-            <a class="right block" href="javascript:void(0)">Learn More</a>
-          </div>
-
-        </div> <!-- END row -->
-      </div> <!-- END section -->
-    </div> <!-- END container -->
-
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

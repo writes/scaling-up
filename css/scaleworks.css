@@ -1,4 +1,20 @@
 /*
+Scaleworks Red: #BE1D2C;
+Scaleworks Gray: #A2A6A9;
+*/
+
+/* Sticky Footer */
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+main {
+   flex: 1 0 auto;
+ }
+
+/*
 -----
 Base
 -----
@@ -48,10 +64,11 @@ Global/Modifiers
 */
 
 .block { display: block; }
+.text-right { text-align: right; }
 
 .lead { text-align: center; }
 .lead h1 { font-family: ; font-size: 36px; font-weight: 700; text-transform: uppercase; }
-.lead p { color: gray; font-size: 14px; }
+.lead p { color: #A2A6A9; font-size: 14px; }
 /*
 -----
 Navigation
@@ -59,7 +76,7 @@ Navigation
 */
 
 .nav-wrapper {
-  background-color: red;
+  background-color: #BE1D2C;
 }
 
 /*
@@ -67,6 +84,10 @@ Navigation
 Home
 -----
 */
+
+.home .page-content {
+  background-color: #BE1D2C;
+}
 
 /*
 -----
@@ -105,6 +126,28 @@ Venture Equity
 
 /*
 -----
-Base
+Footer
 -----
 */
+
+footer.page-footer {
+  background-color: #1B1C1B;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+footer.page-footer .footer-copyright {
+  line-height: 35px;
+}
+
+footer .social {
+  margin: 0 10px;
+  position: relative;
+  top: 3px;
+}
+
+footer .twitter {
+  margin-left: 20px;
+}
