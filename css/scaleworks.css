@@ -22,6 +22,7 @@ Base
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-style: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -77,6 +78,9 @@ Navigation
 
 .nav-wrapper {
   background-color: #BE1D2C;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /*
@@ -85,8 +89,29 @@ Home
 -----
 */
 
-.home .page-content {
+.home .page-content .top-half {
   background-color: #BE1D2C;
+}
+
+.home .page-content .bottom-half {
+  background-color: #FFF;
+}
+
+.home-banner {
+  color: #fff;
+  margin-top: 150px;
+}
+
+.home-banner p {
+  font-weight: 300;
+}
+
+.home-logoWrapper a {
+  color: #fff;
+}
+
+.home-logoWrapper a:hover {
+  color: #BE1D2C;
 }
 
 /*
