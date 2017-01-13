@@ -46,12 +46,14 @@ Global/Modifiers
 
 .lead { margin: 50px 0; text-align: center; }
 .lead h1 { font-size: 36px; font-weight: 700; text-transform: uppercase; }
-.lead p { color: #A2A6A9; font-size: 16px; font-weight: 300; }
+.lead p { color: #A2A6A9; font-size: 16px; font-weight: 300; margin: 5px 0 0 0; }
+
 /*
 -----
 Navigation
 -----
 */
+
 nav ul a {
   line-height: 35px;
   margin: 0 15px;
