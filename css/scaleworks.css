@@ -49,9 +49,9 @@ Global/Modifiers
 .full-width { width: 100%; }
 .text-right { text-align: right; }
 
-.lead { margin: 50px 0; text-align: center; }
-.lead h1 { font-size: 36px; font-weight: 700; text-transform: uppercase; }
-.lead p { color: #A2A6A9; font-size: 16px; font-weight: 300; margin: 5px 0 0 0; }
+body .lead { margin: 60px 0 30px; text-align: center; }
+body .lead h1 { font-size: 36px; font-weight: 700; text-transform: uppercase; }
+body .lead p { color: #A2A6A9; font-size: 16px; font-weight: 300; margin: 5px 0 0 0; }
 
 /*
 -----
@@ -183,6 +183,25 @@ Services
 -----
 */
 
+.services h2 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.services .icon-block {
+  padding: 0 25px;
+  text-align: center;
+}
+
+.services .icon-block img {
+  margin-bottom: 25px;
+}
+
+.services-row {
+  margin-bottom: 40px;
+}
 
 /*
 -----
