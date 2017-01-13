@@ -51,7 +51,7 @@ Global/Modifiers
 
 body .lead { margin: 60px 0 30px; text-align: center; }
 body .lead h1 { font-size: 36px; font-weight: 700; text-transform: uppercase; }
-body .lead p { color: #A2A6A9; font-size: 16px; font-weight: 300; margin: 5px 0 0 0; }
+body .lead p { color: #A2A6A9; line-height: 20px; font-size: 14px; font-weight: 300; margin: 5px 0 0 0; }
 
 /*
 -----
@@ -191,6 +191,7 @@ Services
 }
 
 .services .icon-block {
+  margin-bottom: 40px;
   padding: 0 25px;
   text-align: center;
 }
@@ -199,23 +200,68 @@ Services
   margin-bottom: 25px;
 }
 
-.services-row {
-  margin-bottom: 40px;
-}
-
-/*
------
-Articles
------
-*/
-
-
 /*
 -----
 Team
 -----
 */
 
+.team .icon-block {
+  background-color: #EDF0F2;
+  border-radius: 5px;
+  height: 300px;
+  padding: 35px 40px;
+  text-align: center;
+  width: 250px;
+}
+
+.team .icon-block img {
+  margin: 0 0 20px 0;
+}
+
+.team .icon-block h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.team .icon-block p {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.team .icon-block hr {
+  width: 100px;
+}
+.team .icon-block .social {
+  position: relative;
+  top: 15px;
+}
+
+.team .icon-block .social.twitter {
+  margin: 0 25px;
+}
+
+.team .team-row, .team .open-row {
+  margin-left: 60px;
+}
+
+.team .open-row .apply {
+  background-color: #D45466;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1px;
+  padding: 7px 12px;
+  position: relative;
+  text-transform: uppercase;
+  top: 20px;
+}
+
+.team .open-row .icon-block {
+  padding: 35px 20px;
+}
 
 /*
 -----
