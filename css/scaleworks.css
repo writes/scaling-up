@@ -3,6 +3,9 @@ Scaleworks Red: #BE1D2C;
 Scaleworks Gray: #A2A6A9;
 */
 
+.container {
+  max-width: 1080px;
+}
 /* Sticky Footer */
 body {
    display: flex;
@@ -75,6 +78,21 @@ Global/Modifiers
 Navigation
 -----
 */
+nav ul a {
+  line-height: 35px;
+  margin: 0 15px;
+  padding: 15px 15px 0 15px;
+  transition: none;
+}
+
+nav ul a:hover {
+  background-color: inherit;
+  border-bottom: 1px solid;
+}
+
+nav ul a.active {
+  border-bottom: 1px solid;
+}
 
 .nav-wrapper {
   background-color: #BE1D2C;
@@ -99,11 +117,21 @@ Home
 
 .home-banner {
   color: #fff;
-  margin-top: 150px;
+  margin: 150px 0;
+}
+
+.home-banner .row {
+  margin: 0;
+}
+
+.home-banner h1 {
+  font-size: 50px;
+  margin: 0;
 }
 
 .home-banner p {
   font-weight: 300;
+  margin: 0
 }
 
 .home-logoWrapper a {
