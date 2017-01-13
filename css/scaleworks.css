@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+p {
+  line-height: 25px;
+}
+
 /*
 -----
 Global/Modifiers
@@ -42,6 +46,7 @@ Global/Modifiers
 */
 
 .block { display: block; }
+.full-width { width: 100%; }
 .text-right { text-align: right; }
 
 .lead { margin: 50px 0; text-align: center; }
@@ -171,7 +176,6 @@ Beliefs
 .beliefs-row p {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  line-height: 25px;
 }
 /*
 -----
@@ -200,6 +204,9 @@ Venture Equity
 -----
 */
 
+.venture-equity p {
+  margin-bottom: 40px;
+}
 
 /*
 -----
