@@ -1,0 +1,28 @@
+/* Tablet */
+@media only screen and (min-width : 601px) and (max-width : 992px) {
+
+}
+
+/* Phone */
+@media only screen and (max-width : 600px) {
+
+  .home .skew {
+      bottom: 70px;
+  }
+
+  .home-banner {
+    margin: 0 0 100px;
+  }
+
+  .home-logo {
+    margin-bottom: 15px;
+  }
+
+  .home-logoWrapper {
+    bottom: 80px;
+  }
+
+  .home-logoWrapper span {
+    display: none;
+  }
+}
