@@ -6,6 +6,7 @@ Scaleworks Gray: #A2A6A9;
 .container {
   max-width: 1080px;
 }
+
 /* Sticky Footer */
 body {
    display: flex;
@@ -30,35 +31,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'PT Sans Narrow', sans-serif;
-/*font-family: 'Libre Baskerville', serif;*/
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
-
-p {
-
+  /*font-family: 'Libre Baskerville', serif;*/
+  margin: 0;
 }
 
 /*
@@ -70,9 +44,9 @@ Global/Modifiers
 .block { display: block; }
 .text-right { text-align: right; }
 
-.lead { text-align: center; }
-.lead h1 { font-family: ; font-size: 36px; font-weight: 700; text-transform: uppercase; }
-.lead p { color: #A2A6A9; font-size: 14px; }
+.lead { margin: 50px 0; text-align: center; }
+.lead h1 { font-size: 36px; font-weight: 700; text-transform: uppercase; }
+.lead p { color: #A2A6A9; font-size: 16px; font-weight: 300; }
 /*
 -----
 Navigation
@@ -182,8 +156,21 @@ Home
 Beliefs
 -----
 */
+.beliefs-row {
+  margin-bottom: 60px;
+}
 
+.beliefs-row h2 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+.beliefs-row p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
 /*
 -----
 Services
