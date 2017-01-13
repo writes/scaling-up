@@ -3,10 +3,12 @@
   <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow::300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/scaleworks.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/scaleworks-mobile.css"  media="screen,projection"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
@@ -18,35 +20,37 @@
     <nav>
      <div class="nav-wrapper">
        <div class="container">
-       <a href="/" class="brand-logo">scaleworks</a>
-       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-       <ul class="right hide-on-med-and-down">
-         <li><a href="./beliefs.html">Beliefs</a></li>
-         <li><a href="venture-equity.html">Venture Equity</a></li>
-         <li><a href="services.html">Services</a></li>
-         <li><a href="team.html">Team</a></li>
-         <li><a href="home2.html">Articles</a></li>
-       </ul>
-       <ul class="side-nav" id="mobile-demo">
-         <li><a href="beliefs.html">Beliefs</a></li>
-         <li><a href="venture-equity.html">Venture Equity</a></li>
-         <li><a href="services.html">Services</a></li>
-         <li><a href="team.html">Team</a></li>
-         <li><a href="home2.html">Articles</a></li>
-       </ul>
+         <a href="/" class="brand-logo"><img src="assets/scaleworks-white.svg"></a>
+         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+         <ul class="right hide-on-med-and-down">
+           <li><a href="beliefs.html">Beliefs</a></li>
+           <li><a href="venture-equity.html">Venture Equity</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="team.html" class="active">Team</a></li>
+           <li><a href="https://articles.scaleworks.com/" target="_blank">Articles</a></li>
+         </ul>
+         <ul class="side-nav" id="mobile-demo">
+           <li><a href="beliefs.html">Beliefs</a></li>
+           <li><a href="venture-equity.html">Venture Equity</a></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="team.html">Team</a></li>
+           <li><a href="https://articles.scaleworks.com/" target="_blank">Articles</a></li>
+         </ul>
        </div>
      </div>
     </nav>
+
 <main>
   <div class="container">
     <div class="section">
       <div class="row">
         <div class="col s12">
           <ul class="tabs">
-            <li class="tab col s2 offset-s4"><a class="active" href="#team">Scaleworks Team</a></li>
-            <li class="tab col s2"><a href="#open">Open Positions</a></li>
+            <li class="tab col s4 offset-s2"><a class="active text-right" href="#team">Scaleworks Team<div class="circle team"></div></a></li>
+            <li class="tab col s4"><a href="#open"><div class="circle open"></div>Open Positions</a></li>
           </ul>
         </div>
+      </div>
         <div class="row">
           <div id="team" class="col s12">
             <div class="col s12 m12">
@@ -58,37 +62,129 @@
             <div class="row team-row">
               <div class="col s12 m4">
                 <div class="icon-block">
-                  <img src="https://placehold.it/90x90">
+                  <img src="assets/staff-icons/lew-m.png">
                   <h2>Lew Mooreman</h2>
                   <p>Founding Partner</p>
                   <hr>
-                  <a href="/" class="social linkedin"><img src="https://placehold.it/30x30"></a>
-                  <a href="/" class="social twitter"><img src="https://placehold.it/30x30"></a>
-                  <a href="/" class="social mail"><img src="https://placehold.it/30x30"></a>
+                  <a href="https://www.linkedin.com/in/lewmoorman" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                  <a href="https://twitter.com/lewmooreman" class="social twitter"><img src="assets/team-twitter.svg"></a>
+                  <a href="mailto:lew@lewmoorman.com" class="social mail"><img src="assets/team-mail.svg"></a>
                 </div>
               </div>
               <div class="col s12 m4">
                 <div class="icon-block">
-                  <img src="https://placehold.it/90x90">
-                  <h2>Lew Mooreman</h2>
+                  <img src="assets/staff-icons/ed-b.png">
+                  <h2>Ed Byrne</h2>
                   <p>Founding Partner</p>
                   <hr>
-                  <a href="/" class="social linkedin"><img src="https://placehold.it/30x30"></a>
-                  <a href="/" class="social twitter"><img src="https://placehold.it/30x30"></a>
-                  <a href="/" class="social mail"><img src="https://placehold.it/30x30"></a>
+                  <a href="http://www.linkedin.com/in/edbyrne" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                  <a href="https://twitter.com/edbyrne" class="social twitter"><img src="assets/team-twitter.svg"></a>
+                  <a href="/" class="social mail"><img src="assets/team-mail.svg"></a>
                 </div>
               </div>
               <div class="col s12 m4">
                 <div class="icon-block">
-                  <img src="https://placehold.it/90x90">
-                  <h2>Lew Mooreman</h2>
-                  <p>Founding Partner</p>
+                  <img src="assets/staff-icons/chriss.png">
+                  <h2>Chrissie Reynolds</h2>
+                  <p>Director of Finance</p>
                   <hr>
-                  <a href="/" class="social linkedin"><img src="https://placehold.it/30x30"></a>
-                  <a href="/" class="social twitter"><img src="https://placehold.it/30x30"></a>
-                  <a href="/" class="social mail"><img src="https://placehold.it/30x30"></a>
+                  <a href="https://www.linkedin.com/inchrissiereynolds" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                  <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                  <a href="mailto:chrissie@scaleworks.com" class="social mail"><img src="assets/team-mail.svg"></a>
                 </div>
               </div>
+            </div>
+              <div class="row team-row">
+                <div class="col s12 m4">
+                  <div class="icon-block">
+                    <img src="assets/staff-icons/melissa-k.png">
+                    <h2>Melissa Kruger</h2>
+                    <p>Director of Operations</p>
+                    <hr>
+                    <a href="https://www.linkedin.com/in/melissa-kruger-capm-34274864" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                    <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                    <a href="mailto:mel@scaleworks.com" class="social mail"><img src="assets/team-mail.svg"></a>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="icon-block">
+                    <img src="assets/staff-icons/dorota.png">
+                    <h2>Dorota Szyma&nacute;ska</h2>
+                    <p>Office Manager</p>
+                    <hr>
+                    <a href="https://pl.linkedin.com/in/szymanska-dorota-/en" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                    <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                    <!-- <a href="javascript:void()" class="social mail"><img src="assets/team-mail.svg"></a> -->
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="icon-block">
+                    <img src="assets/staff-icons/paulina.png">
+                    <h2>Paulina W&oacute;jciak</h2>
+                    <p>Director of Finance</p>
+                    <hr>
+                    <a href="https://pl.linkedin.com/in/paulinawojciak" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                    <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                    <a href="mailto:paulina@scaleworks.com" class="social mail"><img src="assets/team-mail.svg"></a>
+                  </div>
+                </div>
+              </div>
+                <div class="row team-row">
+                  <div class="col s12 m4">
+                    <div class="icon-block">
+                      <img src="assets/staff-icons/pat-m.png">
+                      <h2>Pat Matthews</h2>
+                      <p>CEO Filestack</p>
+                      <hr>
+                      <a href="http://www.linkedin.com/in/pamatthe" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                      <a href="https://twitter.com/patmatthews" class="social twitter"><img src="assets/team-twitter.svg"></a>
+                      <a href="mailto:pat@matthews.io" class="social mail"><img src="assets/team-mail.svg"></a>
+                    </div>
+                  </div>
+                  <div class="col s12 m4">
+                    <div class="icon-block">
+                      <img src="assets/staff-icons/paul-l.png">
+                      <h2>Paul Lynch</h2>
+                      <p>CEO Assembla</p>
+                      <hr>
+                      <a href="https://ie.linkedin.com/in/paulglynch" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                      <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                      <a href="mailto:paulglynch@gmail.com" class="social mail"><img src="assets/team-mail.svg"></a>
+                    </div>
+                  </div>
+                  <div class="col s12 m4">
+                    <div class="icon-block">
+                      <img src="assets/staff-icons/chris-c.png">
+                      <h2>Chris Cochran</h2>
+                      <p>CEO Chargify</p>
+                      <hr>
+                      <a href="https://www.linkedin.com/in/chris-cochran-chargify" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                      <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                      <a href="mailto:chris_a_cochran@yahoo.com" class="social mail"><img src="assets/team-mail.svg"></a>
+                    </div>
+                  </div>
+                </div>
+                  <div class="row team-row">
+                    <div class="col s12 m4">
+                      <div class="icon-block">
+                        <img src="assets/staff-icons/cody.png">
+                        <h2>Cody Halff</h2>
+                        <p>Business Analyst</p>
+                        <hr>
+                        <a href="http://www.linkedin.com/in/cody-halff-749012a2" class="social linkedin"><img src="assets/team-linkedin.svg"></a>
+                        <!-- <a href="javascript:void()" class="social twitter"><img src="assets/team-twitter.svg"></a> -->
+                        <a href="mailto:cody@scaleworks.com" class="social mail"><img src="assets/team-mail.svg"></a>
+                      </div>
+                    </div>
+                    <div class="col s12 m4">
+                      <div class="icon-block team-openings-block">
+                        <img src="assets/open-people.svg">
+                        <p>Interested in Joining Scaleworks?</p>
+                        <p>Check out our current openings.</p>
+                        <a class="team-openings" href="javascript:">View Openings</a>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
         <div id="open" class="col s12">
@@ -101,26 +197,78 @@
           <div class="row open-row">
             <div class="col s12 m4">
               <div class="icon-block">
-                <img src="https://placehold.it/90x90">
-                <h2>Lew Mooreman</h2>
-                <p>Founding Partner</p>
+                <img src="assets/open-world.svg">
+                <h2>Director of PR</h2>
+                <p>Scaleworks/San Antonio, TX</p>
                 <a class="apply" href="javascript:void(0)">Apply for this position</a>
               </div>
             </div>
             <div class="col s12 m4">
               <div class="icon-block">
-                <img src="https://placehold.it/90x90">
-                <h2>Lew Mooreman</h2>
-                <p>Founding Partner</p>
+                <img src="assets/open-gear.svg">
+                <h2>VP of Product</h2>
+                <p>San Antonio, TX</p>
                 <a class="apply" href="javascript:void(0)">Apply for this position</a>
               </div>
             </div>
             <div class="col s12 m4">
               <div class="icon-block">
-                <img src="https://placehold.it/90x90">
-                <h2>Lew Mooreman</h2>
-                <p>Founding Partner</p>
+                <img src="assets/open-tie.svg">
+                <h2>VP of Corp Dev Scaleworks</h2>
+                <p>Scaleworks/San Antonio, TX</p>
                 <a class="apply" href="javascript:void(0)">Apply for this position</a>
+              </div>
+            </div>
+          </div>
+          <div class="row open-row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <img src="assets/open-wand.svg">
+                <h2>vp of demand generation</h2>
+                <p>San Antonio, TX</p>
+                <a class="apply" href="javascript:void(0)">Apply for this position</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <img src="assets/open-sound.svg">
+                <h2>VP of Marketing</h2>
+                <p>San Antonio, TX</p>
+                <a class="apply" href="javascript:void(0)">Apply for this position</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <img src="assets/open-hat.svg">
+                <h2>VP of TALENT</h2>
+                <p>Scaleworks/San Antonio, TX</p>
+                <a class="apply" href="javascript:void(0)">Apply for this position</a>
+              </div>
+            </div>
+          </div>
+          <div class="row open-row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <img src="assets/open-robot.svg">
+                <h2>Associate</h2>
+                <p>Scaleworks/San Antonio, TX</p>
+                <a class="apply" href="javascript:void(0)">Apply for this position</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <img src="assets/open-tel.svg">
+                <h2>Analyst</h2>
+                <p>Scaleworks/San Antonio, TX</p>
+                <a class="apply" href="javascript:void(0)">Apply for this position</a>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <img src="assets/open-people.svg">
+                <h2>?</h2>
+                <p>Not the position you're looking for?</p>
+                <a class="apply" href="javascript:void(0)">Contant us!</a>
               </div>
             </div>
           </div>
@@ -129,7 +277,6 @@
         </div>
       </div>
       </div>
-    </div>
   </main>
 
   <footer class="page-footer">
@@ -138,9 +285,9 @@
         <div class="row">
           <div class="col m6">
             <span class="left block">Follow Us:</span>
-            <a href="/" class="social twitter"><img src="https://placehold.it/20x20"></a>
-            <a href="/" class="social linkedin"><img src="https://placehold.it/20x20"></a>
-            <a href="/" class="social other"><img src="https://placehold.it/20x20"></a>
+            <a href="/" class="social twitter"><img src="assets/twitter-footer.svg"></a>
+            <a href="/" class="social linkedin"><img src="assets/linkedin-footer.svg"></a>
+            <a href="/" class="social other"><img src="assets/green-footer.svg"></a>
           </div>
           <div class="col m6">
             <span class="right block">&copy; Scaleworks 2017</span>

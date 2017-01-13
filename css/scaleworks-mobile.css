@@ -1,3 +1,16 @@
+@media only screen and (min-width : 1300px) {
+
+.home .skew {
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+  
+}
+
+
 /* Tablet */
 @media only screen and (min-width : 601px) and (max-width : 992px) {
 

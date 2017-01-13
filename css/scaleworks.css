@@ -1,3 +1,54 @@
+.side-nav a:hover {
+  background-color: #fff;
+}
+
+.indicator {
+  display: none;
+}
+
+.tabs {
+  top: 160px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #D45566;
+}
+
+.tabs .tab a {
+  color: gray;
+  text-align: left;
+}
+
+.team .circle {
+  background-color: gray;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  top: 10px;
+  width: 30px;
+}
+
+.team .tab a:hover {
+  color: #D45566;
+}
+
+.team .tab a:hover .circle {
+  background-color: #D45566;
+}
+
+.team .tab a.active .circle {
+  background-color: #fff;
+  border: 6px solid #D45566;
+}
+
+.team .tab a .circle.open {
+  left: -10px;
+}
+
+.team .tab a .circle.team {
+  left: 10px;
+}
+
 /*
 Scaleworks Red: #BE1D2C;
 Scaleworks Gray: #A2A6A9;
@@ -39,6 +90,9 @@ p {
   line-height: 25px;
 }
 
+img {
+  width: 100%;
+}
 /*
 -----
 Global/Modifiers
@@ -47,12 +101,15 @@ Global/Modifiers
 
 .block { display: block; }
 .full-width { width: 100%; }
-.text-right { text-align: right; }
+.hide { display: none !important; }
+.text-right { text-align: right !important; }
 
 body .lead { margin: 60px 0 30px; text-align: center; }
-body .lead h1 { font-size: 36px; font-weight: 700; text-transform: uppercase; }
+body .lead h1 { font-size: 50px; font-weight: 700; text-transform: uppercase; }
 body .lead p { color: #A2A6A9; line-height: 20px; font-size: 14px; font-weight: 300; margin: 5px 0 0 0; }
 
+body.team .lead { margin: -30px 0 100px; }
+#open .lead { margin: -50px 0 100px; }
 /*
 -----
 Navigation
@@ -72,7 +129,7 @@ nav ul a:hover {
 }
 
 nav ul a.active {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #fff;
 }
 
 .nav-wrapper {
@@ -82,6 +139,20 @@ nav ul a.active {
   text-transform: uppercase;
 }
 
+nav .brand-logo {
+  width: 115px;
+  top: 6px;
+  margin-left: 15px;
+}
+
+/*nav .brand-logo {
+  display: none;
+  background: url('assets/scaleworks-white.svg');
+}
+
+nav .brand-logo:hover {
+  background: url('assets/scaleworks-black.svg');
+}*/
 /*
 -----
 Home
@@ -121,8 +192,19 @@ Home
   margin: 0;
 }
 
+.home-logo.chargify {
+  position: relative;
+  top: -6px;
+}
+
+.home-logo.twist {
+  position: relative;
+  top: -8px;
+}
+
 .home-banner h1 {
   font-size: 50px;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -154,9 +236,17 @@ Home
   letter-spacing: 1px;
   position: relative;
   text-transform: uppercase;
-  top: 15px;
+  top: 29px;
 }
 
+.homes .home-logoWrapper span {
+  top: 10px;
+}
+
+.home-logoWrapper .twist-link span {
+  position: relative;
+  top: 10px;
+}
 
 /*
 -----
@@ -183,6 +273,10 @@ Services
 -----
 */
 
+.services img {
+  width: auto;
+}
+
 .services h2 {
   font-size: 16px;
   font-weight: 700;
@@ -198,6 +292,7 @@ Services
 
 .services .icon-block img {
   margin-bottom: 25px;
+  width: 28%;
 }
 
 /*
@@ -206,17 +301,35 @@ Team
 -----
 */
 
+.team img {
+  width: auto;
+}
+
 .team .icon-block {
   background-color: #EDF0F2;
   border-radius: 5px;
   height: 300px;
   padding: 35px 40px;
+  margin: 0 0 20px 0;
   text-align: center;
   width: 250px;
+}
+.team .icon-block > img {
+  width: 50%;
 }
 
 .team .icon-block img {
   margin: 0 0 20px 0;
+}
+
+.team .icon-block .social-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.team .icon-block .social img {
+  width: 20%;
 }
 
 .team .icon-block h2 {
@@ -237,10 +350,27 @@ Team
 .team .icon-block .social {
   position: relative;
   top: 15px;
+  margin: 0 8px;
 }
 
-.team .icon-block .social.twitter {
-  margin: 0 25px;
+.team-openings {
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1px;
+  padding: 7px 12px;
+  position: relative;
+  /*text-transform: uppercase;*/
+  top: 20px;
+}
+
+.icon-block.team-openings-block {
+  padding: 35px 20px;
+}
+
+.team-openings-block p {
+  margin: 0;
 }
 
 .team .team-row, .team .open-row {
@@ -288,6 +418,7 @@ footer.page-footer {
   background-color: #1B1C1B;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 18px;
+  font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -302,6 +433,9 @@ footer .social {
   margin: 0 10px;
   position: relative;
   top: 3px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
 }
 
 footer .twitter {
