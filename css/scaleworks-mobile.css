@@ -7,20 +7,47 @@
     -o-transform: skewY(-5deg);
     transform: skewY(-5deg);
   }
-  
+
 }
 
 
 /* Tablet */
-@media only screen and (min-width : 601px) and (max-width : 992px) {
+@media only screen and (min-width : 601px) and (max-width : 1024px) {
 
+  .team .icon-block {
+    width: 200px;
+    }
+
+  .team .team-row, .team .open-row {
+    margin-left: 0px;
+  }
 }
 
 /* Phone */
 @media only screen and (max-width : 600px) {
 
+  body.team .lead {
+    margin: -95px 0 100px;
+  }
+
+  body.team .lead h1 {
+    font-size: 30px;
+  }
+
+  body.team .lead p {
+    display: none;
+  }
+
+  #open .lead {
+    margin: -115px 0 100px;
+  }
+
+  #open .lead p {
+    display: none;
+  }
+
   .home .skew {
-      bottom: 70px;
+    bottom: 70px;
   }
 
   .home-banner {
@@ -38,4 +65,43 @@
   .home-logoWrapper span {
     display: none;
   }
+
+  .tabs {
+    height: 100px;
+    top: 65px;
+  }
+
+  .tabs .tab.tab-1 {
+    position: relative;
+    right: -100px;
+    top: 5px;
+    width: 100%;
+
+  }
+
+  .tabs .tab.tab-2 {
+    position: relative;;
+    right: 115px;
+    top: 45px;
+    width: 100%;
+  }
+
+  .team .icon-block {
+    height: 320px;
+    width: 75%;
+    margin-left: 12%;
+  }
+
+  .team .team-row, .team .open-row {
+    margin-left: 0;
+  }
+}
+
+/* Special case */
+@media only screen and (min-width : 601px) and (max-width : 992px) {
+
+  .row .tabs .col.offset-m2 {
+    margin-left: 15px;
+  }
+
 }

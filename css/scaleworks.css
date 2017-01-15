@@ -7,7 +7,12 @@
 }
 
 .tabs {
+  text-align: center;
   top: 160px;
+}
+
+.tabs .col {
+  float: none;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active {
