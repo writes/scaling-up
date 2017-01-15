@@ -145,19 +145,19 @@ nav ul a.active {
 }
 
 nav .brand-logo {
-  width: 115px;
-  top: 6px;
-  margin-left: 15px;
-}
-
-/*nav .brand-logo {
-  display: none;
-  background: url('assets/scaleworks-white.svg');
+  background-image: url('../assets/scaleworks-white.svg');
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 5px;
 }
 
 nav .brand-logo:hover {
-  background: url('assets/scaleworks-black.svg');
-}*/
+  background-image: url('../assets/scaleworks-black.svg');
+}
+
 /*
 -----
 Home
