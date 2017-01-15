@@ -162,6 +162,11 @@ nav .brand-logo:hover {
 nav .button-collapse i {
   font-size: 40px;
 }
+
+.side-nav a {
+  font-size: 18px;
+}
+
 /*
 -----
 Home
@@ -322,12 +327,12 @@ Team
 .team .icon-block {
   background-color: #EDF0F2;
   border-radius: 5px;
-  height: 300px;
+  height: 320px;
   padding: 35px 40px;
   margin: 0 0 20px 0;
   text-align: center;
-  width: 250px;
 }
+
 .team .icon-block > img {
   width: 50%;
 }
