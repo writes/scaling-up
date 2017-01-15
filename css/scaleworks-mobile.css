@@ -14,9 +14,11 @@
 /* Tablet */
 @media only screen and (min-width : 601px) and (max-width : 1024px) {
 
+  .center-auto-m { float: none !important; margin: 0 auto !important; }
+
   .team .icon-block {
     width: 200px;
-    }
+  }
 
   .team .team-row, .team .open-row {
     margin-left: 0px;
@@ -25,6 +27,8 @@
 
 /* Phone */
 @media only screen and (max-width : 600px) {
+
+  .center-auto-s { float: none !important; margin: 0 auto !important; }
 
   body.team .lead {
     margin: -95px 0 100px;
