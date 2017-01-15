@@ -13,15 +13,16 @@
 
 /* Tablet */
 @media only screen and (min-width : 601px) and (max-width : 1024px) {
-
-  .team .icon-block {
-    width: 200px;
-    }
-
-  .team .team-row, .team .open-row {
-    margin-left: 0px;
+  .container {
+    width: 100%;
+  }
+  .team .icon-block .social img {
+    width: 25px;
   }
 }
+
+
+
 
 /* Phone */
 @media only screen and (max-width : 600px) {
@@ -92,12 +93,32 @@
     margin-left: 12%;
   }
 
+  .team .icon-block .social img {
+    width: 40px;
+  }
+
   .team .team-row, .team .open-row {
     margin-left: 0;
   }
 }
 
 /* Special case */
+
+@media only screen and (min-width : 601px) and (max-width : 1250px) {
+
+  .icon-block.team-openings-block {
+    padding-top: 35px;
+  }
+
+  .icon-block.team-openings-block > * {
+    top: -12px;
+  }
+
+  .icon-block.team-openings-block .team-openings {
+    top: 0px;
+  }
+}
+
 @media only screen and (min-width : 601px) and (max-width : 992px) {
 
   .row .tabs .col.offset-m2 {
