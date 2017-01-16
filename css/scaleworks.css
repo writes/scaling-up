@@ -1,60 +1,4 @@
-.side-nav a:hover {
-  background-color: #fff;
-}
-
-.indicator {
-  display: none;
-}
-
-.tabs {
-  text-align: center;
-  top: 160px;
-}
-
-.tabs .col {
-  float: none;
-}
-
-.tabs .tab a:hover, .tabs .tab a.active {
-  color: #D45566;
-}
-
-.tabs .tab a {
-  color: gray;
-  text-align: left;
-}
-
-.team .circle {
-  background-color: gray;
-  display: inline-block;
-  height: 30px;
-  position: relative;
-  top: 10px;
-  width: 30px;
-}
-
-.team .tab a:hover {
-  color: #D45566;
-}
-
-.team .tab a:hover .circle {
-  background-color: #D45566;
-}
-
-.team .tab a.active .circle {
-  background-color: #fff;
-  border: 6px solid #D45566;
-}
-
-.team .tab a .circle.open {
-  left: -10px;
-}
-
-.team .tab a .circle.team {
-  left: 10px;
-}
-
-/*
+ /*
 Scaleworks Red: #BE1D2C;
 Scaleworks Gray: #A2A6A9;
 */
@@ -163,10 +107,6 @@ nav .button-collapse i {
   font-size: 40px;
 }
 
-.side-nav a {
-  font-size: 18px;
-}
-
 /*
 -----
 Home
@@ -186,15 +126,15 @@ Home
 
 .home .skew {
   background-color: #FFF;
-  bottom: 110px;
+  bottom: 82px;
   height: 245px;
   position: absolute;
   width: 100%;
-  -webkit-transform: skewY(-7deg);
-  -moz-transform: skewY(-7deg);
-  -ms-transform: skewY(-7deg);
-  -o-transform: skewY(-7deg);
-  transform: skewY(-7deg);
+  -webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
 }
 
 .home-banner {
@@ -204,16 +144,6 @@ Home
 
 .home-banner .row {
   margin: 0;
-}
-
-.home-logo.chargify {
-  position: relative;
-  top: -6px;
-}
-
-.home-logo.twist {
-  position: relative;
-  top: -8px;
 }
 
 .home-banner h1 {
@@ -229,7 +159,17 @@ Home
 
 .home-logo {
   padding: 0 5px;
-  width: 100%;
+  width: 150px;
+}
+
+.home-logo.chargify {
+  position: relative;
+  top: -6px;
+}
+
+.home-logo.twist {
+  position: relative;
+  top: -8px;
 }
 
 .home-logoWrapper {
@@ -263,6 +203,23 @@ Home
   top: 10px;
 }
 
+.home-logoWrapper-bounce h2 {
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.home-logoWrapper .row .col.m3 {
+  width: 150px;
+}
+
+.home.home-2 .skew {
+  height: 282px;
+}
+
+.home.home-2 .page-content .bottom-half {
+  padding-top: 0px;
+}
 /*
 -----
 Beliefs
@@ -327,9 +284,9 @@ Team
 .team .icon-block {
   background-color: #EDF0F2;
   border-radius: 5px;
-  height: 320px;
-  padding: 35px 40px;
-  margin: 0 0 20px 0;
+  height: 300px;
+  padding: 30px 30px;
+  margin: 0 15px 45px;
   text-align: center;
 }
 
@@ -373,12 +330,12 @@ Team
 }
 
 .team-openings {
-  background-color: teal;
+  background-color: #69C9D0;
   border-radius: 5px;
   color: #fff;
   font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 1px;
-  padding: 7px 12px;
+  padding: 7px 40px;
   position: relative;
   /*text-transform: uppercase;*/
   top: 20px;
@@ -396,6 +353,11 @@ Team
   margin-left: 60px;
 }
 
+.team .open-apply p {
+  font-size: 10px;
+  line-height: 10px;
+}
+
 .team .open-row .apply {
   background-color: #D45466;
   border-radius: 5px;
@@ -405,13 +367,17 @@ Team
   padding: 7px 12px;
   position: relative;
   text-transform: uppercase;
-  top: 20px;
+  top: 15px;
 }
 
 .team .open-row .icon-block {
-  padding: 35px 20px;
+  height: 285px;
+  padding: 20px;
 }
 
+.team-container {
+  max-width: 850px;
+}
 /*
 -----
 Venture Equity
@@ -473,4 +439,58 @@ footer .twitter {
 
 .bounce:hover {
   top: -10px;
+}
+
+/*Tabs */
+
+.indicator {
+ display: none;
+}
+
+.tabs {
+ text-align: center;
+ top: 160px;
+}
+
+.tabs .col {
+ float: none;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+ color: #D45566;
+}
+
+.tabs .tab a {
+ color: gray;
+ text-align: left;
+}
+
+.team .circle {
+ background-color: gray;
+ display: inline-block;
+ height: 30px;
+ position: relative;
+ top: 10px;
+ width: 30px;
+}
+
+.team .tab a:hover {
+ color: #D45566;
+}
+
+.team .tab a:hover .circle {
+ background-color: #D45566;
+}
+
+.team .tab a.active .circle {
+ background-color: #fff;
+ border: 6px solid #D45566;
+}
+
+.team .tab a .circle.open {
+ left: -10px;
+}
+
+.team .tab a .circle.team {
+ left: 10px;
 }
