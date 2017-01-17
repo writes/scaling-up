@@ -113,29 +113,7 @@ Home
 -----
 */
 
-.home .page-content .top-half {
-  background-color: #BE1D2C;
-}
 
-.home .page-content .bottom-half {
-  background-color: #FFF;
-  bottom: -50px;
-  padding-top: 50px;
-  position: relative;
-}
-
-.home .skew {
-  background-color: #FFF;
-  bottom: 82px;
-  height: 245px;
-  position: absolute;
-  width: 100%;
-  -webkit-transform: skewY(-5deg);
-  -moz-transform: skewY(-5deg);
-  -ms-transform: skewY(-5deg);
-  -o-transform: skewY(-5deg);
-  transform: skewY(-5deg);
-}
 
 .home-banner {
   color: #fff;
@@ -157,9 +135,22 @@ Home
   margin: 0
 }
 
+.home .page-content .top-half {
+  background-color: #BE1D2C;
+  background-image: url('../assets/slant-bg.svg');
+  background-size: cover;
+  background-position: center 55px;
+  background-repeat: no-repeat;
+  padding: 75px 0 150px;
+}
+
 .home-logo {
-  padding: 0 5px;
-  width: 150px;
+  padding: 0 10px;
+
+}
+
+.home-logo-link {
+  width: 170px;
 }
 
 .home-logo.chargify {
@@ -213,13 +204,9 @@ Home
   width: 150px;
 }
 
-.home.home-2 .skew {
-  height: 282px;
-}
 
-.home.home-2 .page-content .bottom-half {
-  padding-top: 0px;
-}
+
+
 /*
 -----
 Beliefs
