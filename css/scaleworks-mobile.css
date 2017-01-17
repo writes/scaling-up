@@ -11,11 +11,7 @@
 @media only screen and (min-width : 1300px) {
 
 .home .skew {
-    -webkit-transform: skewY(-5deg);
-    -moz-transform: skewY(-5deg);
-    -ms-transform: skewY(-5deg);
-    -o-transform: skewY(-5deg);
-    transform: skewY(-5deg);
+
   }
 
 }
@@ -61,7 +57,7 @@
   }
 
   .home .skew {
-    bottom: 120px;
+
   }
 
   .home-banner {
@@ -74,21 +70,12 @@
     width: 120px;
   }
 
-  /*.home-logoWrapper {
-    bottom: 80px;
-  }*/
-
   .home-logoWrapper span {
     display: none;
   }
 
-  .home.home-2 .skew {
-    height: 350px;
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
-    -o-transform: skewY(-3deg);
-    transform: skewY(-3deg);
+  .home .page-content .top-half {
+    background-position: center 100px;
   }
 
   .tabs {
@@ -133,6 +120,6 @@
 
 @media only screen and (min-width : 475px) and (max-width : 600px) {
   .home.home-2 .skew {
-    bottom: 200px;
+
   }
 }
