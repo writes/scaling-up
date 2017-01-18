@@ -10,26 +10,26 @@
 
 @media only screen and (min-width : 1700px) {
 
-  .home-banner h1 {
-    font-size: 75px;
-  }
-
   .home-banner p {
-    font-size: 30px;
     line-height: 40px;
   }
 
   .home .page-content .top-half {
-    padding: 100px 0 20%;
+    background-position: center 135px;
+    padding: 10vh 0 10vh;
   }
 
   .home .home-logo-link {
-    width: 200px;
+    width: 8vw;
   }
 
   .home-logoWrapper {
-    bottom: 250px;
-    left: 50px;
+    bottom: 0;
+
+  }
+
+  nav ul a {
+    font-size: 0.9vw;
   }
 }
 
@@ -44,6 +44,30 @@
 
   .team .team-row, .team .open-row {
     margin-left: 0px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 120px;
+  }
+  .home.home-2 .page-content .top-half {
+    background-position: center 70px;
+    padding: 0 0 40px;
+  }
+
+  .home-logo-link {
+    width: 18vw;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+
+  .home-logoWrapper.home-logoWrapper-bounce {
+    bottom: 60px;
+  }
+
+  nav ul a {
+    padding: 15px 10px 0 10px;
   }
 }
 
@@ -72,30 +96,54 @@
     display: none;
   }
 
-  .home .skew {
-
+  .home-banner {
+    margin: 0;
+    padding: 0;
   }
 
-  .home-banner {
-    margin: 0 0 100px;
+  .home-banner h1 {
+    font-size: 10vw;
+  }
+
+  .home-banner p {
+    font-size: 4vw;
+    line-height: 3vh;
   }
 
   .home-logo {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     padding: 0;
     width: 100%;
   }
 
+  .home-logoWrapper.home-logoWrapper-bounce {
+    bottom: 35px;
+  }
+
+  .home-logoWrapper-bounce .home-logo-link {
+    width: 25vw;
+  }
+
   .home-logo-link {
+    width: 30vw;
     margin-bottom: 15px;
+  }
+
+  .home-logoWrapper {
+    bottom: -35px;
   }
 
   .home-logoWrapper span {
     display: none;
   }
 
+  .home .page-content .bottom-half {
+    margin-bottom: -90px;
+  }
+
   .home .page-content .top-half {
-    background-position: center 100px;
+    background-position: center 90px;
+    padding: 0 0 40px;
   }
 
   .tabs {
