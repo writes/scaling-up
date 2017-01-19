@@ -8,31 +8,6 @@
   background-color: #fff;
 }
 
-@media only screen and (min-width : 1700px) {
-
-  .home-banner p {
-    line-height: 40px;
-  }
-
-  .home .page-content .top-half {
-    background-position: center 135px;
-    padding: 10vh 0 10vh;
-  }
-
-  .home .home-logo-link {
-    width: 8vw;
-  }
-
-  .home-logoWrapper {
-    bottom: 0;
-
-  }
-
-  nav ul a {
-    font-size: 0.9vw;
-  }
-}
-
 /* Tablet */
 @media only screen and (min-width : 601px) and (max-width : 1024px) {
 
@@ -71,6 +46,22 @@
   }
 }
 
+@media only screen and (min-width : 601px) and (max-width : 992px) {
+
+  .row .tabs .col.offset-m2 {
+    margin-left: 15px;
+  }
+
+}
+
+
+@media only screen and (min-width : 1700px) {
+
+  nav ul a {
+    font-size: 0.9vw;
+  }
+}
+
 /* Phone */
 @media only screen and (max-width : 600px) {
 
@@ -96,54 +87,8 @@
     display: none;
   }
 
-  .home-banner {
-    margin: 0;
-    padding: 0;
-  }
-
-  .home-banner h1 {
-    font-size: 10vw;
-  }
-
-  .home-banner p {
-    font-size: 4vw;
-    line-height: 3vh;
-  }
-
-  .home-logo {
-    margin-bottom: 25px;
-    padding: 0;
-    width: 100%;
-  }
-
-  .home-logoWrapper.home-logoWrapper-bounce {
-    bottom: 35px;
-  }
-
-  .home-logoWrapper-bounce .home-logo-link {
-    width: 25vw;
-  }
-
-  .home-logo-link {
-    width: 30vw;
-    margin-bottom: 15px;
-  }
-
-  .home-logoWrapper {
-    bottom: -35px;
-  }
-
-  .home-logoWrapper span {
-    display: none;
-  }
-
-  .home .page-content .bottom-half {
-    margin-bottom: -90px;
-  }
-
-  .home .page-content .top-half {
-    background-position: center 90px;
-    padding: 0 0 40px;
+  footer .footer-copyright {
+    font-size: 11px;
   }
 
   .tabs {
@@ -175,13 +120,4 @@
   .team .team-row, .team .open-row {
     margin-left: 0;
   }
-}
-
-/* Special cases */
-@media only screen and (min-width : 601px) and (max-width : 992px) {
-
-  .row .tabs .col.offset-m2 {
-    margin-left: 15px;
-  }
-
 }

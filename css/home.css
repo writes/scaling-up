@@ -1,0 +1,339 @@
+/*
+-----
+Home
+-----
+*/
+
+.bounce {
+  position: relative;
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+  top: 0;
+}
+
+.bounce:hover {
+  top: -10px;
+}
+
+.home-banner {
+  color: #fff;
+  margin: 0 0 100px;
+}
+
+.home-banner .row {
+  margin: 0;
+}
+
+.home-banner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.home-banner p {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 35px;
+  margin: 0
+}
+
+.home .page-content .top-half {
+  background-color: #BE1D2C;
+  background-image: url('../assets/slant-bg.svg');
+  background-size: cover;
+  background-position: center 11vh;
+  background-repeat: no-repeat;
+  padding: 75px 0 50px;
+}
+
+.home-logo {
+  padding: 0 10px;
+
+}
+
+.home-logo-link {
+  width: 210px;
+}
+
+.home-2 .home-logo-link {
+  width: 10vw;
+}
+
+.home-logo.chargify {
+  position: relative;
+  top: -6px;
+}
+
+.home-logo.twist {
+  position: relative;
+  top: -8px;
+}
+
+.home-logoWrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.home-logoWrapper a {
+  color: #fff;
+}
+
+.home-logoWrapper a:hover {
+  color: #BE1D2C;
+}
+
+.home-logoWrapper span {
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1px;
+  position: relative;
+  text-transform: uppercase;
+  top: 29px;
+}
+
+.home-logoWrapper .twist-link span {
+  position: relative;
+  top: 10px;
+}
+
+.home-2 .page-content .bottom-half {
+  margin-bottom: -135px;
+}
+
+.home-logoWrapper-bounce {
+  bottom: 80px;
+}
+
+.home-logoWrapper-bounce h2 {
+  color: #000;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.home-logoWrapper .row .col.m3 {
+  width: 150px;
+}
+
+@media only screen and (min-width : 1700px) {
+
+  .home-banner h1 {
+    font-size: 80px;
+  }
+
+  .home-banner p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 135px;
+    padding: 11vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 1101px) and (max-width : 1300px) {
+  .home-banner h1 {
+    font-size: 60px;
+  }
+
+  .home-banner p {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 10vh;
+    padding: 15vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 901px) and (max-width : 1100px) {
+  .home-banner h1 {
+    font-size: 80px;
+  }
+
+  .home-banner p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 135px;
+    padding: 15vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 801px) and (max-width : 900px) {
+  .home-banner h1 {
+    font-size: 80px;
+  }
+
+  .home-banner p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 135px;
+    padding: 15vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 701px) and (max-width : 800px) {
+  .home-banner h1 {
+    font-size: 80px;
+  }
+
+  .home-banner p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 135px;
+    padding: 15vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 601px) and (max-width : 700px) {
+  .home-banner h1 {
+    font-size: 80px;
+  }
+
+  .home-banner p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 135px;
+    padding: 15vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 601px) and (max-width : 700px) {
+  .home-banner h1 {
+    font-size: 80px;
+  }
+
+  .home-banner p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .home .page-content .top-half {
+    background-position: center 135px;
+    padding: 15vh 0;
+  }
+
+  .home .home-logo-link {
+    width: 220px;
+  }
+
+  .home-logoWrapper {
+    bottom: 30px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+
+    .home-banner {
+      margin: 0;
+      padding: 0;
+    }
+
+    .home-banner h1 {
+      font-size: 10vw;
+    }
+
+    .home-banner p {
+      font-size: 8px;
+      line-height: 20px;
+    }
+
+    .home-logo {
+      margin-bottom: 25px;
+      padding: 0;
+      width: 100%;
+    }
+
+    .home-logoWrapper.home-logoWrapper-bounce {
+      bottom: 35px;
+    }
+
+    .home-logoWrapper-bounce .home-logo-link {
+      width: 25vw;
+    }
+
+    .home-logo-link {
+      width: 30vw;
+      margin-bottom: 15px;
+    }
+
+    .home-logoWrapper {
+      bottom: -20px;
+    }
+
+    .home-logoWrapper span {
+      display: none;
+    }
+
+    .home .page-content .bottom-half {
+      margin-bottom: -90px;
+    }
+
+    .home .page-content .top-half {
+      background-position: center 78px;
+      padding: 0 0 40px;
+    }
+}
