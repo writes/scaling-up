@@ -91,8 +91,23 @@ nav ul a:hover, nav ul a:visited, nav ul a:active, nav ul a:focus {
 
 @media only screen and (min-width : 1700px) {
 
+  nav .brand-logo {
+    height: 200px;
+    width: 200px;
+  }
+
   nav ul a {
-    font-size: 0.9vw;
+    font-size: 1.2vw;
+    padding-top: 35px;
+  }
+
+  footer .social {
+    margin: 0 20px;
+    width: 40px;
+  }
+
+  footer.page-footer {
+    font-size: 28px;
   }
 }
 

@@ -118,13 +118,17 @@ Home
 
 @media only screen and (min-width : 2201px) {
 
+  .home .container {
+    max-width: 1800px;
+  }
+
   .home-banner h1 {
-    font-size: 80px;
+    font-size: 120px;
   }
 
   .home-banner p {
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 50px;
+    line-height: 80px;
   }
 
   .home .page-content .top-half {
@@ -133,7 +137,7 @@ Home
   }
 
   .home .home-logo-link {
-    width: 245px;
+    width: 13vw;
   }
 
   .home-logoWrapper {
