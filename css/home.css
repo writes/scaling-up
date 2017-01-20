@@ -118,8 +118,20 @@ Home
 
 @media only screen and (min-width : 2201px) {
 
-  .home .container {
+  nav .nav-wrapper {
+    height: 100px;
+  }
+
+  .container {
     max-width: 1800px;
+  }
+
+  .team .icon-block > img {
+    width: 20%;
+  }
+
+  .team .icon-block .social img {
+    width: 10%;
   }
 
   .home-banner h1 {
@@ -172,27 +184,27 @@ Home
 
 @media only screen and (min-width : 1101px) and (max-width : 1700px) {
 
-    .home-banner h1 {
-      font-size: 60px;
-    }
+  .home-banner h1 {
+    font-size: 60px;
+  }
 
-    .home-banner p {
-      font-size: 22px;
-      line-height: 38px;
-    }
+  .home-banner p {
+    font-size: 22px;
+    line-height: 38px;
+  }
 
-    .home .page-content .top-half {
-      background-position: center 11.2vh;
-      padding: 5vh 0 4.5vh;
-    }
+  .home .page-content .top-half {
+    background-position: center 11.2vh;
+    padding: 5vh 0 4.5vh;
+  }
 
-    .home .home-logo-link {
-      width: 200px;
-    }
+  .home .home-logo-link {
+    width: 200px;
+  }
 
-    .home-logoWrapper {
-      bottom: -5vh;
-    }
+  .home-logoWrapper {
+    bottom: -5vh;
+  }
 
 }
 
@@ -246,53 +258,53 @@ Home
 
 @media only screen and (max-width : 600px) {
 
-    .home-banner {
-      margin: 0;
-      padding: 0;
-    }
+  .home-banner {
+    margin: 0;
+    padding: 0;
+  }
 
-    .home-banner h1 {
-      font-size: 36px;
-    }
+  .home-banner h1 {
+    font-size: 36px;
+  }
 
-    .home-banner p {
-      font-size: 10px;
-      line-height: 20px;
-    }
+  .home-banner p {
+    font-size: 10px;
+    line-height: 20px;
+  }
 
-    .home-logo {
-      margin-bottom: 25px;
-      padding: 0;
-      width: 100%;
-    }
+  .home-logo {
+    margin-bottom: 25px;
+    padding: 0;
+    width: 100%;
+  }
 
-    .home-logoWrapper.home-logoWrapper-bounce {
-      bottom: 35px;
-    }
+  .home-logoWrapper.home-logoWrapper-bounce {
+    bottom: 35px;
+  }
 
-    .home-logoWrapper-bounce .home-logo-link {
-      width: 25vw;
-    }
+  .home-logoWrapper-bounce .home-logo-link {
+    width: 25vw;
+  }
 
-    .home-logo-link {
-      width: 30vw;
-      margin-bottom: 15px;
-    }
+  .home-logo-link {
+    width: 30vw;
+    margin-bottom: 15px;
+  }
 
-    .home-logoWrapper {
-      bottom: 0px;
-    }
+  .home-logoWrapper {
+    bottom: 0px;
+  }
 
-    .home-logoWrapper span {
-      display: none;
-    }
+  .home-logoWrapper span {
+    display: none;
+  }
 
-    .home .page-content .bottom-half {
-      margin-bottom: -90px;
-    }
+  .home .page-content .bottom-half {
+    margin-bottom: -90px;
+  }
 
-    .home .page-content .top-half {
-      background-position: center 95px;
-      padding: 40px 0 90px;
-    }
+  .home .page-content .top-half {
+    background-position: center 95px;
+    padding: 40px 0 90px;
+  }
 }
