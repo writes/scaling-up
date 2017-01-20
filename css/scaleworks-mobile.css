@@ -8,6 +8,10 @@
   background-color: #fff;
 }
 
+nav ul a:hover, nav ul a:visited, nav ul a:active, nav ul a:focus {
+  border: none;
+}
+
 /* Tablet */
 @media only screen and (min-width : 601px) and (max-width : 1024px) {
 
@@ -15,6 +19,9 @@
 
   .team .icon-block {
     width: 200px;
+  }
+  .team .icon-block .social img {
+    width: 28px;
   }
 
   .team .team-row, .team .open-row {
@@ -50,6 +57,33 @@
 
   .row .tabs .col.offset-m2 {
     margin-left: 15px;
+  }
+
+  .team .icon-block .social {
+    margin: 0 3px;
+  }
+
+  .team-container {
+    max-width: 750px;
+  }
+
+  .team .icon-block {
+    margin: 0 0px 45px;
+    padding: 30px 0;
+    width: 100%;
+  }
+
+  .team-openings {
+    padding: 7px 30px;
+  }
+
+  .team-openings-block p {
+    line-height: 20px;
+  }
+
+  .team .open-row .apply {
+    font-size: 12px;
+    padding: 7px 5px;
   }
 
 }
@@ -96,6 +130,10 @@
     top: 65px;
   }
 
+  .tabs .tab a {
+    font-size: 10px;
+  }
+
   .tabs .tab.tab-1 {
     position: relative;
     right: -100px;
@@ -105,16 +143,28 @@
   }
 
   .tabs .tab.tab-2 {
-    position: relative;;
+    position: relative;
     right: 115px;
     top: 45px;
     width: 100%;
   }
 
+  .team-openings {
+    padding: 7px 30px;
+  }
+
+  .team .open-row .apply {
+    font-size: 12px;
+  }
+
   .team .icon-block {
-    height: 320px;
+    height: 85vw;
     width: 75%;
     margin-left: 12%;
+  }
+
+  .team .icon-block p {
+    font-size: 10px;
   }
 
   .team .team-row, .team .open-row {
