@@ -28,7 +28,7 @@ nav ul a:hover, nav ul a:visited, nav ul a:active, nav ul a:focus {
     margin-left: 0px;
   }
 
-  .home .page-content .top-half {
+  /*.home .page-content .top-half {
     background-position: center 120px;
   }
   .home.home-2 .page-content .top-half {
@@ -50,7 +50,7 @@ nav ul a:hover, nav ul a:visited, nav ul a:active, nav ul a:focus {
 
   nav ul a {
     padding: 15px 10px 0 10px;
-  }
+  }*/
 }
 
 @media only screen and (min-width : 601px) and (max-width : 992px) {
@@ -97,7 +97,7 @@ nav ul a:hover, nav ul a:visited, nav ul a:active, nav ul a:focus {
   }
 
   nav ul a {
-    font-size: 1.2vw;
+    font-size: 1vw;
     padding-top: 35px;
   }
 
