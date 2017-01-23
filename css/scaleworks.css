@@ -82,6 +82,10 @@ nav ul a.active {
   border-bottom: 1px solid #fff;
 }
 
+nav .nav-wrapper {
+  height: 90px;
+}
+
 .nav-wrapper {
   background-color: #BE1D2C;
   font-family: 'PT Sans Narrow', sans-serif;
